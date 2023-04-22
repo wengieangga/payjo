@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payjo</title>
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: "Poppins";
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <div class="relative">
+    <header id="header"
+      class="container min-w-full flex items-center justify-between py-4 px-[5%] lg:px-[5%] top-0  z-50 bg-white lg:bg-white xl:px-[10%] 2xl:px-[20%]"
+    >
+      <div class="lg:w-96 w-[40%]">
+        <a href=""><img src="images/payjo-logo.png" class="" alt="" /></a>
+      </div>
+
+      <div class="ml-[50px] mr-4 lg:ml-2 ">
+        <button id="hamburger" class="lg:hidden">
+          <i class="fa-sharp fa-solid fa-bars-staggered"></i>
+        </button>
+        <nav
+          id="nav-menu" class=" items-center ml-10 mr-52 hidden absolute bg-white rounded-lg  max-w-[200px] w-full -right-36 top-full lg:block lg:static lg:max-w-full lg:mx-0"
+        >
+          <ul class="block lg:flex">
+            <li class="py-2 group lg:px-2">
+              <a href="" class="text-menucolor font-medium text-base flex group-hover:bg-orange-400 py-2 group-hover:text-white pl-5 border-b-[1px] lg:border-[0] lg:group-hover:bg-white lg:group-hover:font-semibold lg:group-hover:text-menucolor">Home</a>
+            </li>
+            <li class="py-2 group lg:px-2">
+              <a href="" class="text-menucolor font-medium text-base flex group-hover:bg-orange-400 py-2 group-hover:text-white pl-5 border-b-[1px] lg:border-[0] lg:group-hover:bg-white lg:group-hover:font-semibold lg:group-hover:text-menucolor">Features</a>
+            </li>
+            <li class="py-2 group lg:px-2">
+              <a href="" class="text-menucolor font-medium text-base flex group-hover:bg-orange-400 py-2 group-hover:text-white pl-5 border-b-[1px] lg:border-[0] lg:group-hover:bg-white lg:group-hover:font-semibold lg:group-hover:text-menucolor">Pricing</a>
+            </li>
+            <li class="py-2 group lg:px-2">
+              <a href="" class="text-menucolor font-medium text-base flex group-hover:bg-orange-400 py-2 group-hover:text-white pl-5 border-b-[1px] lg:border-[0] lg:group-hover:bg-white lg:group-hover:font-semibold lg:group-hover:text-menucolor">About</a>
+            </li>
+            <li class="py-2 group lg:px-2">
+              <a href="" class="text-menucolor font-medium text-base flex group-hover:bg-orange-400 py-2 group-hover:text-white pl-5 border-b-[1px] lg:border-[0] lg:group-hover:bg-white lg:group-hover:font-semibold lg:group-hover:text-menucolor">Contact</a>
+            </li>
+            <li class="py-2 group lg:px-2">
+              <a href="" class="text-menucolor font-medium text-base flex group-hover:bg-orange-400 py-2 group-hover:text-white pl-5 border-b-[1px] lg:border-[0] lg:group-hover:bg-white lg:group-hover:font-semibold lg:group-hover:text-menucolor">Pages</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+
+      <div class="lg:flex">
+        <a
+          class="text-[#010102] font-semibold ml-auto bg-[#ff8100] px-5 py-[6px] rounded-lg text-base tracking-wider lg:ml-28"
+          href=""
+          >Demo</a
+        >
+      </div>
+    </header>
+  </div>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section
+      class="container min-w-full flex mt-10 mb-20  justify-between py-2 px-[5%] h-3/4 lg:px-[20%] lg:mb-20 lg:px-[5%] xl:px-[10%] 2xl:px-[20%]"
+    >
+      <div class="lg:w-[70%]">
+        <h1
+          class="text-3xl font-extrabold items-start leading-tight animate-fadeInHeroTagline lg:text-5xl lg:leading-tight"
+        >
+          No Need to Bother Paying if You Forget to Bring Your Wallet!, Download
+          the App Now!
+        </h1>
+        <p class="my-6 font-light text-[#8d8d91] animate-fadeInHeroTagline">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        </p>
+        <a
+          href=""
+          class="bg-[#FF8100] px-10 py-3 rounded-lg inline-block hover:bg-orange-600 animate-fadeInHeroTagline  text-center lg:w-[60%]"
+          >Learn More</a
+        >
+
+        <div class="mt-8 flex gap-[30px] animate-fadeInHeroImage lg:gap-2.5 smallPhone:flex-wrap">
+          <div>
+            <h3 class="text-[#1b1b1c] text-[32px] font-extrabold">2M+</h3>
+            <p class="text-[#8d8d91] font-light text-base">App Downloaded</p>
+          </div>
+
+          <div>
+            <h3 class="text-[#1b1b1c] text-[32px] font-extrabold">94%</h3>
+            <p class="text-[#8d8d91] font-light text-base">Satisfied User</p>
+          </div>
+
+          <div>
+            <h3 class="text-[#1b1b1c] text-[32px] font-extrabold">16+</h3>
+            <p class="text-[#8d8d91] font-light text-base">New Features</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="animate-fadeInHeroImage hidden lg:block">
+        <img id="box2" class="" src="images/hero-image.png" alt="" />
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- how it works start -->
+    <section
+      class="bg-[#f7f5f0] container min-w-full flex flex-wrap justify-around px-[5%] pb-20 lg:px-[7%] xl:px-[10%] 2xl:px-[20%]"
+    >
+      <div class="min-w-full">
+        <h3
+          class="text-[#1b1b1c] text-[28px] lg:text-[28px] text-center font-extrabold leading-normal lg:text-center pt-20 pb-3 animate-fadeInHowItWorks"
+        >
+          E-Wallet that answers all your needs
+        </h3>
+        <p
+          class="text-center m-auto leading-relaxed font-light text-[#8d8d91] animate-fadeInHowItWorks"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        </p>
+      </div>
+
+      <div class="flex gap-10 mt-10 flex-wrap lg:flex-nowrap" id="myID">
+        <div class="bg-white px-10">
+          <div class="mt-10 mb-5">
+            <i
+              class="fa-solid fa-money-bill-1-wave fa-4x inline-block text-center w-[100%]"
+            ></i>
+          </div>
+          <span
+            class="text-[#1b1b1c] font-extrabold text-xl lg:text-2xl inline-block text-center w-[100%]"
+            >Payment Gateway</span
+          >
+          <p
+            class="text-center pt-4 pb-16 text-[#8d8d91] font-light leading-loose"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+        </div>
+
+        <div class="bg-white px-10">
+          <div class="mt-10 mb-5">
+            <i
+              class="fa-solid fa-wallet fa-4x inline-block text-center w-[100%]"
+            ></i>
+          </div>
+          <span
+            class="text-[#1b1b1c] font-extrabold text-xl lg:text-2xl inline-block text-center w-[100%]"
+            >Ultimate E-Wallet</span
+          >
+          <p class="text-center pt-4 pb-16 text-[#8d8d91] leading-loose">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+        </div>
+
+        <div class="bg-white px-10">
+          <div class="mt-10 mb-5">
+            <i
+              class="fa-solid fa-bolt fa-4x inline-block text-center w-[100%]"
+            ></i>
+          </div>
+          <span
+            class="text-[#1b1b1c] font-extrabold text-xl lg:text-2xl inline-block text-center w-[100%]"
+            >Bank Transfer</span
+          >
+          <p class="text-center pt-4 pb-16 text-[#8d8d91] leading-loose">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- how it works end -->
+
+    <!-- Features section Start -->
+    <section
+      class="container min-w-full flex flex-wrap justify-around px-[5%] items-center pt-20 pb-20 lg:px-[7%] xl:px-[10%] 2xl:px-[20%]"
+    >
+      <div class="lg:w-[53%] lg:pr-[140px]" id="youCanTrack">
+        <h3 class="text-[#1b1b1c] text-3xl lg:text-[32px] leading-normal font-extrabold">
+          You can track your expenses very clearly here
+        </h3>
+        <p class="text-[#8d8d91] font-light pt-5 leading-relaxed">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        </p>
+      </div>
+
+      <div class="lg:w-[47%] animate-fadeInHeroImage">
+        <img
+          class="mt-20 mr-auto justify-self-end"
+          src="images/first-feature.png"
+          alt=""
+        />
+      </div>
+
+      <div class="lg:w-[47%] mt-0 animate-fadeInHeroImage">
+        <img
+          class="mt-20 ml-auto w-[80%] justify-self-end"
+          src="images/second-feature.png"
+          alt=""
+        />
+      </div>
+
+      <div class="lg:w-[53%] lg:pl-44 mt-0 animate-fadeInHowItWorks">
+        <h3 class="text-[#1b1b1c] text-3xl lg:text-[32px] leading-normal font-extrabold pt-10 lg:pt-0">
+          See the details of your expenses for anything, it's very easy here
+        </h3>
+        <p class="text-[#8d8d91] font-light pt-5 leading-relaxed">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        </p>
+      </div>
+    </section>
+
+    <!-- Features section End -->
+
+    <!-- Testimonial section Start -->
+    <section
+      class="container min-w-full flex flex-wrap justify-around px-[5%] items-center bg-[#f7f5f0] lg:px-[7%] xl:px-[10%] 2xl:px-[20%]"
+    >
+      <h3 class="text-[#1b1b1c] text-[32px] font-extrabold mt-20 mb-5">
+        What user says about Payjo
+      </h3>
+      <p
+        class="text-base text-[#8d9d91] font-light text-left lg:text-center lg:m-auto lg:w-[61%] leading-relaxed mb-5"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+        luctus nec ullamcorper mattis, pulvinar dapibus leo.
+      </p>
+
+      <!-- Testimonial card 1 -->
+      <div class="container min-w-full flex flex-wrap lg:flex-nowrap gap-10 pt-7 pb-24">
+        <div class="bg-white px-7">
+          <div class="mb-3 mt-9">
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+          </div>
+          <p class="pb-5 text-[#8d8d91] font-light leading-loose">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+
+          <div class="flex items-center">
+            <div>
+              <img
+                class="w-[70px] h-[70px] rounded-full"
+                src="images/avatar-1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="ml-6">
+              <h5 class="text-base text-black font-bold">Shoo Phar Dhie</h5>
+              <span
+                class="text-[#00000080] font-light mt-1 inline-block text-xs"
+                >Kang Bakso</span
+              >
+            </div>
+          </div>
+
+          <div class="flex">
+            <i
+              class="fa-sharp fa-solid fa-quote-right fa-2x ml-auto text-gray-200 -top-6 relative"
+            ></i>
+          </div>
+        </div>
+
+        <!-- Testimonial Card 2 -->
+        <div class="bg-white px-7">
+          <div class="mb-3 mt-9">
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+          </div>
+          <p class="pb-5 text-[#8d8d91] font-light leading-loose">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+
+          <div class="flex items-center">
+            <div>
+              <img
+                class="w-[70px] h-[70px] rounded-full"
+                src="images/avatar-2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="ml-6">
+              <h5 class="text-base text-black font-bold">Shoo Yhan Tho</h5>
+              <span
+                class="text-[#00000080] font-light mt-1 inline-block text-xs"
+                >Kang Bakso</span
+              >
+            </div>
+          </div>
+
+          <div class="flex">
+            <i
+              class="fa-sharp fa-solid fa-quote-right fa-2x ml-auto text-gray-200 -top-6 relative"
+            ></i>
+          </div>
+        </div>
+
+        <!-- Testimonial Card 3 -->
+        <div class="bg-white px-7">
+          <div class="mb-3 mt-9">
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+          </div>
+          <p class="pb-5 text-[#8d8d91] font-light leading-loose">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+
+          <div class="flex items-center">
+            <div>
+              <img
+                class="w-[70px] h-[70px] rounded-full"
+                src="images/avatar-3.jpg"
+                alt=""
+              />
+            </div>
+            <div class="ml-6">
+              <h5 class="text-base text-black font-bold">Shoo Phar Nhoe</h5>
+              <span
+                class="text-[#00000080] font-light mt-1 inline-block text-xs"
+                >Kang Bakso</span
+              >
+            </div>
+          </div>
+
+          <div class="flex">
+            <i
+              class="fa-sharp fa-solid fa-quote-right fa-2x ml-auto text-gray-200 -top-6 relative"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial section End -->
+
+    <!-- Benefit Start -->
+    <section
+      class="container min-w-full flex flex-wrap lg:flex-nowrap justify-around px-[5%] items-center py-20 lg:px-[7%] xl:px-[10%] 2xl:px-[20%]"
+    >
+      <div class="lg:w-[38%]">
+        <h3 class="lg:text-[32px] text-3xl font-extrabold">
+          Benefit will you get, if you use Payjo
+        </h3>
+        <p class="text-base text-[#8d8d91] font-light mt-5">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        </p>
+        <!-- Icon Start -->
+        <div>
+          <div class="flex my-5">
+            <i class="fa-solid fa-circle-check fa-3x"></i>
+
+            <div class="ml-4">
+              <h4 class="text-[#1b1b1bc] text-2xl font-extrabold py-[12px]">
+                Withdraw Easily
+              </h4>
+              <p class="text-[#8d8d91] font-light leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex">
+            <i class="fa-solid fa-circle-check fa-3x"></i>
+            <div class="ml-4">
+              <h4 class="text-[#1b1b1bc] text-2xl font-extrabold py-[12px]">
+                Investment
+              </h4>
+              <p class="text-[#8d8d91] font-light leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Icon End -->
+      </div>
+
+      <div class="lg:w-[60%] lg:pl-52 mt-10 lg:mt-0">
+        <img src="images/benefit.png" alt="" />
+      </div>
+    </section>
+    <!-- Benefit End -->
+
+    <!-- Footer Start -->
+    <footer
+      class="container min-w-full flex flex-wrap lg:flex-nowrap justify-around px-[5%] items-center bg-[#f7f5f0] py-20 lg:px-[7%] xl:px-[10%] 2xl:px-[20%]"
+    >
+      <div class="lg:w-[90%]">
+        <img src="images/cta.png" alt="" />
+      </div>
+
+      <div class="lg:pl-16 mt-16 lg:mt-0">
+        <h2 class="lg:text-5xl text-4xl font-extrabold leading-tight">
+          Download Now and Get New Experience from Payjo!
+        </h2>
+        <p class="text-[#8d8d91] font-light my-4 leading-relaxed">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        </p>
+        <div class="flex lg:flex-nowrap">
+          <img class="lg:w-48 w-[45%]" src="images/gp-rounded-button.png" alt="" />
+          <img class="lg:w-48 lg:ml-4 w-[45%] ml-2" src="images/as-rounded-button.png" alt="" />
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Footer Start -->
+    <footer
+      class="container min-w-full flex flex-wrap lg:flex-nowrap justify-around px-[5%] bg-[#f7f5f0] py-20 w-1/3 lg:px-[7%] xl:px-[10%] 2xl:px-[20%]"
+    >
+      <div class="lg:w-[33.3%]">
+        <img class="w-32" src="images/payjo-footer.png" alt="" />
+        <p class="text-[#8d8d91] font-light pt-5 leading-[1.8]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        </p>
+      </div>
+
+      <div class="lg:w-[33.3%] lg:text-center min-w-full lg:min-w-0 my-8 lg:my-0">
+        <h6 class="font-semibold">Connect With Us</h6>
+        <div class="flex flex-wrap lg:flex-nowrap lg:justify-center lg:items-center text-center mt-4">
+          <div
+            class="bg-[#ff8100] w-8 h-fit rounded-[4px] py-1 hover:bg-orange-600"
+          >
+            <a href="" class=""><i class="fa-brands fa-facebook"></i></a>
+          </div>
+
+          <div
+            class="bg-[#ff8100] w-8 h-fit rounded-[4px] py-1 mx-5 hover:bg-orange-600"
+          >
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+          </div>
+
+          <div
+            class="bg-[#ff8100] w-8 h-fit rounded-[4px] py-1 hover:bg-orange-600"
+          >
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:w-[33.3%]  min-w-full lg:min-w-0">
+        <h6 class="font-semibold">Get in Touch</h6>
+        <div class="mt-3">
+          <i class="fa-solid fa-envelope"></i>
+          <span class="ml-2">services@payjo.com</span>
+        </div>
+        <div class="my-3">
+          <i class="fa-solid fa-phone"></i>
+          <span class="ml-2"> +123-456-7890</span>
+        </div>
+        <div>
+          <i class="fa-brands fa-whatsapp"></i>
+          <span class="ml-2"> +321-654-0987</span>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script>
+    
+
+      const element = document.querySelector("#youCanTrack");
+      const observer = new IntersectionObserver((entries) => {
+        element.classList.toggle(
+          "animate-fadeInHowItWorksCards",
+          entries[0].isIntersecting
+        );
+      });
+
+      observer.observe(element);
+
+      const hamburger = document.querySelector("#hamburger");
+      const navMenu = document.querySelector('#nav-menu');
+
+      hamburger.addEventListener("click", function () {
+        navMenu.classList.toggle("hidden");
+      });
+
+      window.onscroll = function () {
+        const header = document.querySelector('header');
+        const fixedNav = header.offsetTop;
+
+        if (window.pageYOffset > fixedNav) {
+          header.classList.add('fixed');
+        } else {
+          header.classList.remove('fixed');
+        }
+      };
+ 
+    </script>
+  </body>
+</html>
